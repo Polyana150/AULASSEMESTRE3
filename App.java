@@ -6,11 +6,10 @@ public class App {
 
     public void emitirBoleto(){
         System.out.println("Estou na minha classe app e quero imprimir um boleto");
-//         Boleto variavelBoleto = new Boleto();
-//         // variavelBoleto.codigodebarras = "Código de barras número 2148712847124";
-//         // variavelBoleto.valor = 12 ;
-//         // variavelBoleto.vencimento = "Vencimento Amanha";
-//         variavelBoleto.emitirBoleto(10,"98349316342t8","hoje");
-
-//     }
+        Boleto variavelBoleto= new Boleto(10, "49876942", "hoje guys");
+        //o encapsulamento resolve a duplicação de valores
+        variavelBoleto.emitirBoleto();
+        
+        // variavelBoleto.agendarBoleto();
+        variavelBoleto.cancelarBoleto( );
     }}  
